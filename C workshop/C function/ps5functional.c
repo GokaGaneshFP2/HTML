@@ -1,11 +1,13 @@
 #include <stdio.h>
-void docircle(float r){
+void docircle(float r)
+{
     const float PI=3.14;
-    float res;
-    res=PI*(r*r);
-    printf("%f",res);
+    float result;
+    result=PI*(r*r);
+    printf("%f\n",result);
 }
-int main(){
+int main()
+{
     docircle(100);
     docircle(10);
     docircle(15);
